@@ -15,7 +15,7 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #080b4a;
   text-decoration: inherit;
 }
 a:hover {
@@ -56,7 +56,7 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    color: #0d0e0f;
     background-color: #ffffff;
   }
   a:hover {
@@ -67,11 +67,17 @@ button:focus-visible {
   }
 }
 
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #958a8a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 h1, h2 {
@@ -87,7 +93,7 @@ h1, h2 {
 
 input[type='text'] {
   padding: 8px;
-  border: 1px solid #ccc;
+  border: 1px solid #262020;
   border-radius: 4px;
 }
 
@@ -103,10 +109,12 @@ select {
   justify-content: center;
   gap: 20px;
   padding: 20px;
+  max-width: 80%;
+  margin: auto;
 }
 
 .product {
-  background: white;
+  background: rgba(179, 102, 102, 0.435);
   padding: 15px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -114,8 +122,8 @@ select {
 }
 
 button {
-  background-color: #28a745;
-  color: white;
+  background-color: #524542;
+  color: rgb(227, 211, 211);
   border: none;
   padding: 10px 15px;
   cursor: pointer;
@@ -130,7 +138,7 @@ button:hover {
   margin: 20px auto;
   padding: 20px;
   max-width: 500px;
-  background: white;
+  background: rgb(204, 170, 170);
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -144,7 +152,7 @@ button:hover {
   display: flex;
   justify-content: space-between;
   padding: 10px 0;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #251919;
 }
 
 .cart button {
@@ -154,4 +162,3 @@ button:hover {
 .cart button:hover {
   background-color: #c82333;
 }
-

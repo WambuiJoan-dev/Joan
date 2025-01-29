@@ -1,6 +1,3 @@
-
-
-
 import React, { useState, useEffect } from 'react';
 import ProductList from './ProductList';
 import Cart from './Cart';
